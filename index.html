@@ -28,6 +28,35 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="css/icomoon.css" />
     <link rel="stylesheet" href="css/style.css" />
+
+	<meta name="description" content="Explore the portfolio of Gercio Narciso Bande, a skilled programmer with expertise in WordPress, MERN stack, and web design. Available for hire.">
+    <meta name="keywords" content="Gercio Narciso Bande, portfolio, programmer, WordPress, MERN stack, web design, web development, Node.js, consulting, Maputo, software development">
+    <meta name="author" content="Gercio Narciso Bande">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Gercio Narciso Bande - Portfolio">
+    <meta property="og:description" content="Explore the portfolio of Gercio Narciso Bande, a skilled programmer with expertise in WordPress, MERN stack, and web design. Available for hire.">
+    <meta property="og:image" content="./images/logo.jpg">
+    <meta property="og:url" content="https://gerciocrystal.github.io/portifolio/">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Gercio Narciso Bande - Portfolio">
+    <meta name="twitter:description" content="Explore the portfolio of Gercio Narciso Bande, a skilled programmer with expertise in WordPress, MERN stack, and web design. Available for hire.">
+    <meta name="twitter:image" content="./images/logo.jpg">    
+
+	<style>
+        .image-item {
+            width: 150px; /* Ajuste o tamanho conforme necessário */
+            height: auto; /* Ajuste o tamanho conforme necessário */
+			transition: all .3s ease-in;
+            /* object-fit: cover; */		
+        }
+		.image-item:hover {
+            width: 160px;
+			cursor: pointer;
+        }
+        .row {
+            justify-content: center;
+        }
+    </style>
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
     <nav
@@ -73,7 +102,7 @@
               >
             </li>
             <li class="nav-item">
-              <a href="#blog-section" class="nav-link"><span>My Blog</span></a>
+              <a href="#blog-section" class="nav-link"><span>My Jobs</span></a>
             </li>
             <li class="nav-item">
               <a href="#contact-section" class="nav-link"
@@ -546,6 +575,22 @@
           </div>
         </div>
       </div>
+	  <div class="container text-center mt-6">
+		<div class="row justify-content-center align-items-center">
+			<div class="col-md-4">
+				<img class="image-item" src="./images/reactJS.png" alt="React logo, blue of color"/>
+			</div>
+			<div class="col-md-4">
+				<img class="image-item" src="./images/NodeJs.png" alt="Node logo, green of color"/>
+			</div>
+			<!-- <div class="col-md-3">
+				<img class="image-item" src="./images/chakraUi.png" alt="Chakra sky blue , green of color"/>
+			</div> -->
+			<div class="col-md-4">
+				<img class="image-item" src="./images/wordpress.png" alt="WordPress logo, green of color"/>
+			</div>
+		</div>
+	</div>
     </section>
 
     <section class="ftco-section ftco-project" id="projects-section">
@@ -553,7 +598,7 @@
         <div class="row justify-content-center pb-5">
           <div class="col-md-12 heading-section text-center ftco-animate">
             <h1 class="big big-2">Projects</h1>
-            <h2 class="mb-4">Our Projects</h2>
+            <h2 class="mb-4">My Projects</h2>
             <p>
               Welcome to the Products section of my portfolio. Here, you will
               find a showcase of my diverse projects that demonstrate my

@@ -1978,3 +1978,15 @@ textarea.form-control {
     stroke-dashoffset: -136px;
   }
 }
+.technologies-wrapper {
+  width: 100%;
+  overflow: hidden;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+}
+.image-item {
+  width: 230px;
+}
